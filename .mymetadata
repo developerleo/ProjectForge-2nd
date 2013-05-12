@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="projectforge-webapp"
+  id="myeclipse.1364399322430"
+  context-root="/ProjectForge"
+  j2ee-spec="6.0"
+  archive="projectforge-webapp.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

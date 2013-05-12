@@ -1,0 +1,22 @@
+<ehcache>
+  <defaultCache maxElementsInMemory="100" eternal="false" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false" />
+  <cache name="historyItemCache" maxElementsInMemory="1000" />
+  <cache name="de.micromata.hibernate.history.delta.PropertyDelta" maxElementsInMemory="1000" />
+  <cache name="de.micromata.hibernate.history.HistoryEntry" maxElementsInMemory="1000" />
+  <cache name="de.micromata.hibernate.history.HistoryEntry.delta" maxElementsInMemory="1000" />
+
+  <cache name="org.projectforge.fibu.AuftragDao" maxElementsInMemory="1000" />
+  <cache name="org.projectforge.fibu.EingangsrechnungDao" maxElementsInMemory="1000" />
+  <cache name="org.projectforge.fibu.RechnungDao" maxElementsInMemory="1000" />
+  <cache name="org.projectforge.address.AddressDao" maxElementsInMemory="1000" />
+  <cache name="org.projectforge.book.BookDao" maxElementsInMemory="1000" />
+  <cache name="org.projectforge.task.TaskDao" maxElementsInMemory="1000" />
+  <cache name="org.projectforge.timesheet.TimesheetDao" maxElementsInMemory="10000" />
+
+  <cache name="org.projectforge.plugins.teamcal.admin.TeamCalDao" maxElementsInMemory="1000" />
+  <cache name="org.projectforge.plugins.teamcal.event.TeamEventDao" maxElementsInMemory="1000" />
+  <cache name="org.projectforge.plugins.todo.ToDoDao" maxElementsInMemory="1000" />
+
+  <cache name="org.hibernate.cache.UpdateTimestampsCache" maxElementsInMemory="1000" />
+  <cache name="org.hibernate.cache.StandardQueryCache" maxElementsInMemory="1000" />
+</ehcache>
