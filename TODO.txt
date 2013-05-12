@@ -1,0 +1,47 @@
+Johannes
+--------
+- TaskSelectPanel: Der Taskpath wird nicht immer angepasst.
+- TaskSelectPanel: Was tun, wenn gespeichert wird und noch das Text-Input-Feld steht?
+- TaskSelectPanel: Wenn erneut gesucht wird, steht alter Suchtext noch da, lieber löschen?
+
+Bugs
+----
+- ctrl-return dokumentieren.
+- Caused by: java.lang.NullPointerException
+        at org.projectforge.plugins.teamcal.event.TeamEventDao.afterLoad(TeamEventDao.java:155)
+        at org.projectforge.plugins.teamcal.event.TeamEventDao.afterLoad(TeamEventDao.java:64)
+        at org.projectforge.core.BaseDao.internalGetById(BaseDao.java:652)
+        at org.projectforge.core.BaseDao.getById(BaseDao.java:637)
+        at org.projectforge.core.BaseDao$$FastClassByCGLIB$$ddb64f08.invoke(<generated>)
+- Modify end-date if start-date is changed.
+- Aus Ereignis Zeitbericht anlegen.
+- Standardkalender klappt nicht immer, manchmal geht er auf Zeitberichte.
+- ProjectForge-Feiertage und Zeitberichte abonnieren.
+- Bei 15 Minuten Zeitberichtsauswahl (Klick) ganze Pause füllen oder Anschlussbericht.
+
+TeamCal
+-------
+- Attendees, Einladungen
+- Droplet, Import
+
+Konkrete Masken
+---------------
+- GanttChartEditForm: refresh button
+- Layout Monatsbericht.
+- z-index wieder klein machen.
+
+Mobile Version
+--------------
+- Button zum Dis- und Enablen des Responsive-Modes
+- ModalWindows: bigWindows gehen nicht.
+
+Themenspeicher
+--------------
+- http://haineault.com/media/jquery/ui-timepickr/page/
+- https://blogs.oracle.com/talkingjavadeployment/entry/native_packaging_for_javafx
+
+ToDo
+----
+- reportObjectives (browsen->NPE)
+- Alert icon (s. Adresskampagnen-EditForm)
+- Addresses: Droplet, Import
